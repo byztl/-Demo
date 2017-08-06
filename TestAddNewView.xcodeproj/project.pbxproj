@@ -15,6 +15,7 @@
 		66F81B8F1F1CA1B70002F097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F81B8D1F1CA1B70002F097 /* LaunchScreen.storyboard */; };
 		66F81B9A1F1CA1B70002F097 /* TestAddNewViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F81B991F1CA1B70002F097 /* TestAddNewViewTests.m */; };
 		66F81BA51F1CA1B70002F097 /* TestAddNewViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F81BA41F1CA1B70002F097 /* TestAddNewViewUITests.m */; };
+		66F81BB41F1CA2160002F097 /* HBButtonAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F81BB31F1CA2160002F097 /* HBButtonAddView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		66F81BA01F1CA1B70002F097 /* TestAddNewViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAddNewViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F81BA41F1CA1B70002F097 /* TestAddNewViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAddNewViewUITests.m; sourceTree = "<group>"; };
 		66F81BA61F1CA1B70002F097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F81BB21F1CA2160002F097 /* HBButtonAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBButtonAddView.h; sourceTree = "<group>"; };
+		66F81BB31F1CA2160002F097 /* HBButtonAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBButtonAddView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				66F81B831F1CA1B60002F097 /* AppDelegate.m */,
 				66F81B851F1CA1B60002F097 /* ViewController.h */,
 				66F81B861F1CA1B60002F097 /* ViewController.m */,
+				66F81BB21F1CA2160002F097 /* HBButtonAddView.h */,
+				66F81BB31F1CA2160002F097 /* HBButtonAddView.m */,
 				66F81B881F1CA1B60002F097 /* Main.storyboard */,
 				66F81B8B1F1CA1B70002F097 /* Assets.xcassets */,
 				66F81B8D1F1CA1B70002F097 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				66F81B871F1CA1B60002F097 /* ViewController.m in Sources */,
 				66F81B841F1CA1B60002F097 /* AppDelegate.m in Sources */,
+				66F81BB41F1CA2160002F097 /* HBButtonAddView.m in Sources */,
 				66F81B811F1CA1B60002F097 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NL7JQ3K39W;
 				INFOPLIST_FILE = TestAddNewView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingwangtong.TestAddNewView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NL7JQ3K39W;
 				INFOPLIST_FILE = TestAddNewView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingwangtong.TestAddNewView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
